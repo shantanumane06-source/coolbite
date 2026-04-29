@@ -1,0 +1,67 @@
+/* ===========================
+   CoolBite – Global Styles
+   =========================== */
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --ocean: #4FC3F7;
+  --ocean-dark: #0288D1;
+  --ocean-deep: #01579B;
+  --ocean-light: #E1F5FE;
+  --ocean-mid: #B3E5FC;
+  --white: #FFFFFF;
+  --off-white: #F8FDFF;
+  --text-dark: #0D2E4A;
+  --text-mid: #2C6E99;
+  --text-light: #6BADC8;
+  --shadow: 0 8px 32px rgba(1, 87, 155, 0.10);
+  --shadow-hover: 0 16px 48px rgba(1, 87, 155, 0.18);
+  --radius: 18px;
+  --radius-sm: 10px;
+  --font-display: 'Raleway', sans-serif;
+  --font-body: 'Nunito', sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 16px;
+}
+
+body {
+  font-family: var(--font-body);
+  background: var(--off-white);
+  color: var(--text-dark);
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+section {
+  scroll-margin-top: 72px;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--ocean-light);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--ocean);
+  border-radius: 10px;
+}
