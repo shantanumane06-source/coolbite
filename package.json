@@ -12,8 +12,7 @@
     "build": "react-scripts build"
   },
   "engines": {
-    "node": "18.x",
-    "npm": "9.x"
+    "node": "24.x"
   },
   "devDependencies": {
     "react-scripts": "5.0.1"
